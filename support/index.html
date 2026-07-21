@@ -35,9 +35,9 @@
           <span class="number">01</span>
           <h2>Browser observation</h2>
           <ol>
-            <li>Install and open the Mirror macOS app.</li>
+            <li>Install Mirror using its signed direct-distribution package.</li>
             <li>Install the official Mirror browser extension.</li>
-            <li>Use Mirror's Browser connector panel to install the local connector.</li>
+            <li>Open Mirror and confirm that the package-managed connector is present.</li>
             <li>Open the extension popup and explicitly enable local observation.</li>
           </ol>
         </article>
@@ -47,8 +47,9 @@
           <h2>If events do not appear</h2>
           <ul>
             <li>Confirm that the extension toggle says observation is on.</li>
-            <li>Confirm that the selected browser matches the connector installed in Mirror.</li>
-            <li>Restart the browser after installing the local connector.</li>
+            <li>Confirm that the selected browser reports its system connector as installed.</li>
+            <li>Restart the browser after installing or updating the Mirror package.</li>
+            <li>Reinstall the signed package if the system connector is reported missing.</li>
             <li>Keep private apps and domains excluded unless you intentionally change those settings.</li>
           </ul>
         </article>
