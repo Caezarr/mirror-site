@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Installation, troubleshooting, and support information for Mirror.">
+    <meta name="color-scheme" content="light dark">
+    <title>Support — Mirror</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../" aria-label="Mirror home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>Mirror</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="../privacy/">Privacy</a>
+        <a aria-current="page" href="./">Support</a>
+      </nav>
+    </header>
+
+    <main class="support-main">
+      <section class="support-hero">
+        <p class="eyebrow">Mirror support</p>
+        <h1>Help with the app and browser companion.</h1>
+        <p class="lede">
+          Mirror is currently in pre-release development. The notes below cover
+          the local browser connection and the safest way to report a problem.
+        </p>
+      </section>
+
+      <section class="support-grid" aria-label="Support topics">
+        <article>
+          <span class="number">01</span>
+          <h2>Browser observation</h2>
+          <ol>
+            <li>Install and open the Mirror macOS app.</li>
+            <li>Install the official Mirror browser extension.</li>
+            <li>Use Mirror's Browser connector panel to install the local connector.</li>
+            <li>Open the extension popup and explicitly enable local observation.</li>
+          </ol>
+        </article>
+
+        <article>
+          <span class="number">02</span>
+          <h2>If events do not appear</h2>
+          <ul>
+            <li>Confirm that the extension toggle says observation is on.</li>
+            <li>Confirm that the selected browser matches the connector installed in Mirror.</li>
+            <li>Restart the browser after installing the local connector.</li>
+            <li>Keep private apps and domains excluded unless you intentionally change those settings.</li>
+          </ul>
+        </article>
+
+        <article>
+          <span class="number">03</span>
+          <h2>Report an issue</h2>
+          <p>
+            Open a ticket in the public support tracker. Include the Mirror
+            version, macOS version, browser name, and a concise description of
+            what happened.
+          </p>
+          <a class="button" href="https://github.com/Caezarr/mirror-site/issues/new">Open a support ticket</a>
+          <p class="fine-print">Never post passwords, tokens, private URLs, screenshots containing personal data, or raw workflow traces.</p>
+        </article>
+      </section>
+
+      <section class="status-panel compact" aria-labelledby="privacy-help-title">
+        <div>
+          <p class="eyebrow">Privacy help</p>
+          <h2 id="privacy-help-title">Your local data stays under your control.</h2>
+        </div>
+        <p>
+          You can pause observation and delete retained workflow events from
+          Mirror. Read the <a href="../privacy/">privacy policy</a> for the full
+          data-handling description.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Mirror</span>
+      <a href="../privacy/">Privacy</a>
+    </footer>
+  </body>
+</html>
