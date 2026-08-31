@@ -1,0 +1,10 @@
+{
+  "name": "Mirror",
+  "short_name": "Mirror",
+  "description": "Local-first macOS workflow assistant. Observation stays on your Mac.",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#f6f4ef",
+  "theme_color": "#111111",
+  "lang": "en"
+}
