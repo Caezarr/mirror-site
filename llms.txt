@@ -1,0 +1,19 @@
+# Mirror
+
+> Local-first macOS workflow assistant. Observation stays on your Mac.
+
+Mirror recognizes coarse repeated-work structure and prepares reviewable automation drafts. It does not collect screenshots, keystrokes, page text, form values, passwords, cookies, query strings, or tokens. There is no analytics or advertising pipeline.
+
+## Product
+
+- Homepage: https://caezarr.github.io/mirror-site/
+- Privacy policy: https://caezarr.github.io/mirror-site/privacy/
+- Support: https://caezarr.github.io/mirror-site/support/
+
+## Status
+
+Pre-release. The native macOS app and browser companion are being tested before public distribution. This site is the public privacy and support surface for that release process.
+
+## Optional
+
+- Source (private): https://github.com/Caezarr/Mirror
