@@ -1,0 +1,9 @@
+/* TEAM */
+Creator: Gabriel Rance (Caezarr)
+Site: https://caezarr.github.io/mirror-site/
+GitHub: https://github.com/Caezarr/Mirror
+
+/* SITE */
+Standards: HTML5, CSS
+Purpose: Public privacy, support, and product info for Mirror
+Language: EN
