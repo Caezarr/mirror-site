@@ -9,6 +9,14 @@ Mirror recognizes coarse repeated-work structure and prepares reviewable automat
 - Homepage: https://caezarr.github.io/mirror-site/
 - Privacy policy: https://caezarr.github.io/mirror-site/privacy/
 - Support: https://caezarr.github.io/mirror-site/support/
+- Security contact: https://caezarr.github.io/mirror-site/.well-known/security.txt
+- humans.txt: https://caezarr.github.io/mirror-site/humans.txt
+
+## Principles
+
+1. Local by default — workflow evidence stays encrypted on-device
+2. Minimized before storage — no screenshots, keystrokes, or page content
+3. User-controlled — pause, exclude, inspect, and delete retained events
 
 ## Status
 
@@ -17,3 +25,4 @@ Pre-release. The native macOS app and browser companion are being tested before 
 ## Optional
 
 - Source (private): https://github.com/Caezarr/Mirror
+- Creator: [@the__caezar](https://twitter.com/the__caezar)
