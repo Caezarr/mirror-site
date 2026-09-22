@@ -26,26 +26,50 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Mirror",
-      "description": "Mirror is a macOS workflow assistant that recognizes coarse routine structure and prepares reviewable automation drafts. Observation is visible, minimized, and stored locally on your Mac.",
-      "operatingSystem": "macOS",
-      "applicationCategory": "UtilitiesApplication",
-      "url": "https://caezarr.github.io/mirror-site/",
-      "image": "https://caezarr.github.io/mirror-site/og.png",
-      "sameAs": [
-        "https://twitter.com/the__caezar",
-        "https://github.com/Caezarr/Mirror"
-      ],
-      "author": {
-        "@type": "Person",
-        "name": "Gabriel Rance",
-        "url": "https://iamgabriel.xyz"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/PreOrder"
-      }
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://caezarr.github.io/mirror-site/#software",
+          "name": "Mirror",
+          "description": "Mirror is a macOS workflow assistant that recognizes coarse routine structure and prepares reviewable automation drafts. Observation is visible, minimized, and stored locally on your Mac.",
+          "operatingSystem": "macOS",
+          "applicationCategory": "UtilitiesApplication",
+          "url": "https://caezarr.github.io/mirror-site/",
+          "image": "https://caezarr.github.io/mirror-site/og.png",
+          "sameAs": [
+            "https://twitter.com/the__caezar",
+            "https://github.com/Caezarr/Mirror"
+          ],
+          "author": {
+            "@type": "Person",
+            "name": "Gabriel Rance",
+            "url": "https://iamgabriel.xyz"
+          },
+          "publisher": {
+            "@id": "https://caezarr.github.io/mirror-site/#organization"
+          },
+          "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/PreOrder"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://caezarr.github.io/mirror-site/#organization",
+          "name": "Mirror",
+          "url": "https://caezarr.github.io/mirror-site/",
+          "logo": "https://caezarr.github.io/mirror-site/og.png",
+          "founder": {
+            "@type": "Person",
+            "name": "Gabriel Rance",
+            "url": "https://iamgabriel.xyz"
+          },
+          "sameAs": [
+            "https://twitter.com/the__caezar",
+            "https://github.com/Caezarr/Mirror"
+          ]
+        }
+      ]
     }
     </script>
   </head>
