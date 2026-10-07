@@ -1,0 +1,13 @@
+{
+  "name": "mirror-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mirror project website",
+  "scripts": {
+    "test": "node validate-seo.js"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1",
+    "fast-xml-parser": "^4.5.0"
+  }
+}
