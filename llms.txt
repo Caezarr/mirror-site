@@ -1,8 +1,8 @@
 # Mirror
 
-> Local-first macOS workflow assistant. Observation stays on your Mac.
+> Local-first macOS workflow assistant. Observation is visible, minimized, and stored locally.
 
-Mirror recognizes coarse repeated-work structure and prepares reviewable automation drafts. It does not collect screenshots, keystrokes, page text, form values, passwords, cookies, query strings, or tokens. There is no analytics or advertising pipeline.
+Mirror recognizes coarse routine structure and prepares reviewable automation drafts. Workflow evidence stays in encrypted storage on your Mac. Mirror does not collect screenshots, keystrokes, page text, form values, passwords, cookies, query strings, or tokens. There is no analytics or advertising pipeline.
 
 ## Product
 
