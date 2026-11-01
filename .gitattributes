@@ -1,0 +1,26 @@
+# Normalize line endings for text files committed to the repo.
+* text=auto eol=lf
+
+# Site sources
+*.html text diff=html
+*.css  text diff=css
+*.js   text
+*.json text
+*.xml  text
+*.txt  text
+*.md   text diff=markdown
+*.svg  text
+*.webmanifest text
+
+# Binary assets
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+
+# Keep lockfiles out of diff noise in reviews
+package-lock.json -diff linguist-generated=true
