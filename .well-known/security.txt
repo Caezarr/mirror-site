@@ -1,4 +1,5 @@
 Contact: mailto:gabriel.rance@ensam.eu
 Expires: 2027-08-31T00:00:00.000Z
 Preferred-Languages: en, fr
+Policy: https://github.com/Caezarr/mirror-site/security/policy
 Canonical: https://caezarr.github.io/mirror-site/.well-known/security.txt
