@@ -1,7 +1,7 @@
 /* TEAM */
 Creator: Gabriel Rance (Caezarr)
 Site: https://caezarr.github.io/mirror-site/
-GitHub: https://github.com/Caezarr/Mirror
+GitHub: https://github.com/Caezarr/mirror-site
 
 /* SITE */
 Standards: HTML5, CSS
