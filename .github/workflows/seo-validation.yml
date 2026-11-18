@@ -31,5 +31,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
         
-      - name: Validate JSON-LD and sitemap
+      - name: Validate JSON-LD, sitemap, HTML and links
         run: npm test
